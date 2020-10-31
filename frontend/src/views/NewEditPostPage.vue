@@ -402,7 +402,6 @@ export default {
   width: 1000px;
   max-width: calc(100% - 0.01px) !important;
   background: rgb(240, 240, 240);
-  transform: translateY(-100px);
   transition: 0.3s linear;
   transition-property: opacity, transform;
 }
