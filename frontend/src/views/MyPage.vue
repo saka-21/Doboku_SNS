@@ -35,7 +35,7 @@
         <v-card class="mb-2" color="blue-grey lighten-5">
           <v-row no-gutters>
             <v-col cols="6" lg="3" md="3" sm="3" xs="3">
-              <v-img eager :src="Person.icon_image"> </v-img>
+              <v-img aspect-ratio="1" eager :src="Person.icon_image"> </v-img>
             </v-col>
             <v-col cols="6" lg="4" md="3" sm="9" xs="3" class="pa-md-3">
               <v-card-title
