@@ -91,12 +91,12 @@
                       </ValidationProvider>
                       <ValidationProvider
                         mode="aggressive"
-                        name="説明文"
+                        name="説明or感想"
                         rules="required"
                         v-slot="{ errors }"
                       >
                         <v-textarea
-                          label="説明文"
+                          label="説明 or 感想"
                           rows="4"
                           :error-messages="errors"
                           v-model="content"
