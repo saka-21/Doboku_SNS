@@ -23,34 +23,3 @@
   position: relative;
   top: 20px;
 }
-
-#send_button {
-  background-color: rgba(105, 85, 75, 0.400);
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-  /* border:1px solid rgb(0, 0, 0); */
-}
-
-#send_button:disabled {
-  background-color: rgba(105, 85, 75, 0.300);
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.300);
-  border-radius: 10px;
-}
-#send_button:active {
-  box-shadow: none;
-}
-
-#ok_button {
-  margin-left: 10px;
-  background-color: #CFD8DC;
-}
-
-#profile_edit_card,
-#signup_card,
-#login_card {
-  background-color: rgba(151, 132, 116, 0.315);
-  border-radius: 10px;
-}
