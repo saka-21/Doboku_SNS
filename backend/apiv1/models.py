@@ -61,8 +61,6 @@ class Comment(models.Model):
     author = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
     text = models.TextField()
     timestamp = models.DateTimeField(auto_now_add=True)
-    parent = models.ForeignKey(to='self', verbose_name='親コメント',
-                               null=True, blank=True, on_delete=models.CASCADE)
 
     class Meta:
         ordering = ['-timestamp']

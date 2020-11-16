@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apiv1.apps.Apiv1Config',
     'django.forms',
+    'django_extensions',
 
     # カスタムユーザー
     'accounts.apps.AccountsConfig',

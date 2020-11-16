@@ -21,6 +21,9 @@ uwsgi = "^2.0.19"
 boto3 = "^1.14.56"
 django-storages = "^1.10"
 environ = "^1.0"
+Graphviz = "^0.14.2"
+django-extensions = "^3.0.9"
+wheel = "^0.35.1"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.5.3"
